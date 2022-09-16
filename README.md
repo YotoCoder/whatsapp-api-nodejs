@@ -16,5 +16,5 @@ abres el link
 # Escaneas el QR
 http://localhost:3333/instance/qr?key=TU-CLAVE-SECRETA
 
-# api enviando mensaje
+# Endpoind para enviar mensaje
 http://localhost:3333/message/text?key=TU-CLAVE-SECRETA&id={phone}&message={message}
