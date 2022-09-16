@@ -6,7 +6,7 @@
 
 # Docker compose
 
-<h1>Docker compose up -d</code>
+<code>Docker compose up -d</code>
 
 # Creas el token
 http://localhost:3333/instance/init
