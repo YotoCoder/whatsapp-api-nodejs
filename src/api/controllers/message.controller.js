@@ -1,10 +1,10 @@
 exports.Text = async (req, res) => {
-    const data = await WhatsAppInstances[req.query.key].sendTextMessage(
-        // req.body.id,
-        // req.body.message
+    const data = await WhatsAppInstances[req.body.key].sendTextMessage(
+        req.body.id,
+        req.body.message
 
-        req.query.id,
-        req.query.message
+        // req.query.id,
+        // req.query.message
 
     )
     return res.status(201).json({ error: false, data: data })
