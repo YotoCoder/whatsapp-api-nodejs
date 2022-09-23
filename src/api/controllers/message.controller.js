@@ -1,5 +1,5 @@
 exports.Text = async (req, res) => {
-    const data = await WhatsAppInstances[req.body.key].sendTextMessage(
+    const data = await WhatsAppInstances[req.query.key].sendTextMessage(
         req.body.id,
         req.body.message
 
